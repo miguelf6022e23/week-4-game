@@ -1,0 +1,82 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../images/crystalBG.jpg");
+    /*https://www.google.com/search?q=crystal+wallpaper&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjctrr_8tfVAhUq34MKHRIVBj4Q_AUICigB&biw=1366&bih=638#imgrc=S6uIbuiSbG9GOM:*/
+    
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+
+h1, h2, p{
+    color: Maroon;
+    margin: 5px 0px 15px 0px;
+    font-weight: bold;
+}
+
+.box{
+    background-color:   teal;
+    border: 1px solid Maroon;
+    margin: 20px;
+    padding: 10px;
+    display: block;
+}
+
+.container{
+    display: block;
+    width: 500px;
+}
+
+.icon{
+    width:100%;
+}
+
+.wide{
+    padding: 10px 50px 10px 50px;
+    width: 500px;
+}
+
+.narrow{
+    padding: 10px 50px 10px 50px;
+    width: 185px;
+    display: inline-block;
+    margin: 20px 0px 0px 20px;
+    }
+
+.narrower{
+    padding: 10px 50px 10px 50px;
+    width: 27px;
+    display: inline-block;
+    margin: 20px 0px 0px 20px;
+}
+
+/* .container{
+    width: 90%;
+    display: table;
+    table-layout: fixed;
+    margin-left: 5%;
+    border-spacing: 10px;
+border: 1px solid grey;
+} */
+
+.row{
+    display: table-row;
+}
+
+.icon{
+    width: 30px;
+}
+
+.word{
+    margin-right:5px;
+}
